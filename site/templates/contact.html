@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Магазин Раритетных Монет</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Магазин Раритетных Монет</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Каталог</a></li>
+                <li><a href="{{ url_for('about') }}">О нас</a></li>
+                <li><a href="{{ url_for('contact') }}">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Вы можете связаться с нами, используя следующую информацию:</p>
+
+            <h3>Адрес</h3>
+            <p>12345 Улица Монет, Город, Страна, 123456</p>
+
+            <h3>Телефон</h3>
+            <p>+1 (123) 456-7890</p>
+
+            <h3>Электронная почта</h3>
+            <p><a href="mailto:info@coinstore.com">info@coinstore.com</a></p>
+
+            <h3>Часы работы</h3>
+            <p>Понедельник - Пятница: 9:00 - 18:00<br>
+               Суббота: 10:00 - 16:00<br>
+               Воскресенье: Закрыто</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Магазин Раритетных Монет</p>
+    </footer>
+</body>
+</html>

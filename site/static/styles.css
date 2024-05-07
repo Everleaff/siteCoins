@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #747474;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.coins {
+    display: flex;
+    gap: 20px;
+}
+
+.coin {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.coin img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+/* Стили корзины */
+#cart {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#cart-items {
+    margin-bottom: 10px;
+}
+
+#clear-cart {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clear-cart:hover {
+    background-color: #c9302c;
+}
+
+/* Оформление раздела "О нас" */
+#about {
+    background-color: #f9f9f9; /* Светлый фон */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 20px; /* Отступы внутри блока */
+    margin: 20px auto; /* Внешние отступы */
+    max-width: 800px; /* Максимальная ширина */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+#about h2 {
+    font-size: 2em; /* Размер шрифта заголовка */
+    margin-bottom: 20px; /* Отступ под заголовком */
+    color: #333; /* Цвет текста */
+}
+
+#about p {
+    line-height: 1.6; /* Высота строки */
+    color: #555; /* Цвет текста */
+    font-size: 1.1em; /* Размер шрифта */
+    margin-bottom: 15px; /* Отступы между абзацами */
+}
+
+/* Добавляем стили для выделения текста */
+.highlight {
+    font-weight: bold; /* Жирный шрифт */
+    color: #000; /* Черный цвет текста */
+    background-color: #f1f1f1; /* Светло-серый фон */
+    padding: 5px 10px; /* Отступы внутри выделенного текста */
+    border-radius: 5px; /* Закругленные углы */
+    text-align: justify; /* Выровнять по ширине */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Корзина в правом верхнем углу */
+#cart-header {
+    margin-left: auto;
+}
+
+#cart-header a {
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+/* Убирает подчеркивание и изменяет цвет текста для всех ссылок */
+a, .coin h3, .coin p {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: inherit; /* Наследует цвет текста родительского элемента */
+}
+
+/* Убирает синее и фиолетовое подсвечивание текста при наведении */
+a:hover, .coin h3:hover, .coin p:hover {
+    color: inherit; /* Наследует цвет текста родительского элемента */
+}
